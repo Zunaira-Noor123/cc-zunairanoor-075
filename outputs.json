@@ -1,0 +1,54 @@
+{
+  "backend_servers_private_ips": {
+    "sensitive": false,
+    "type": [
+      "object",
+      {
+        "web-1": "string",
+        "web-2": "string",
+        "web-3": "string"
+      }
+    ],
+    "value": {
+      "web-1": "10.0.10.105",
+      "web-2": "10.0.10.249",
+      "web-3": "10.0.10.232"
+    }
+  },
+  "backend_servers_public_ips": {
+    "sensitive": false,
+    "type": [
+      "object",
+      {
+        "web-1": "string",
+        "web-2": "string",
+        "web-3": "string"
+      }
+    ],
+    "value": {
+      "web-1": "51.112.229.47",
+      "web-2": "40.172.187.20",
+      "web-3": "3.28.41.123"
+    }
+  },
+  "backend_sg_id": {
+    "sensitive": false,
+    "type": "string",
+    "value": "sg-04212b5d389bd5342"
+  },
+  "nginx_private_ip": {
+    "sensitive": false,
+    "type": "string",
+    "value": "10.0.10.185"
+  },
+  "nginx_public_ip": {
+    "sensitive": false,
+    "type": "string",
+    "value": "51.112.47.232"
+  },
+  "nginx_sg_id": {
+    "sensitive": false,
+    "type": "string",
+    "value": "sg-038da4178bc17d410"
+  }
+}

@@ -1,0 +1,21 @@
+# Terraform files
+.terraform/
+*.tfstate
+*.tfstate.backup
+*.tfvars
+.terraform.lock.hcl
+
+# SSH keys
+*.pem
+*.key
+id_ed25519
+id_ed25519.pub
+
+# OS / Editor files
+.DS_Store
+.vscode/
+.idea/
+
+# Logs
+*.log
+
